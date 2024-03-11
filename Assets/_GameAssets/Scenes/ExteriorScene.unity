@@ -442,19 +442,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.83294487
+      value: 0.93975234
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.55335593
+      value: -0.34185612
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -67.195
+      value: -39.98
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -837,7 +837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 559606033}
   - component: {fileID: 559606035}
-  - component: {fileID: 559606034}
   m_Layer: 0
   m_Name: CamaraFantasma
   m_TagString: Untagged
@@ -860,14 +859,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 400903041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &559606034
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559606032}
-  m_Enabled: 1
 --- !u!20 &559606035
 Camera:
   m_ObjectHideFlags: 0
@@ -895,10 +886,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: 0.1
+    y: 0.8
+    width: 0.2
+    height: 0.17
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1247,8 +1238,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8, y: 3.9, z: 16.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4, y: 3.9, z: 16}
+  m_Center: {x: 1, y: 0, z: 0}
 --- !u!1001 &851243508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1343,7 +1334,6 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1351,14 +1341,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
