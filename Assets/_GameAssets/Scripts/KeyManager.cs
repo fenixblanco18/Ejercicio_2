@@ -7,7 +7,7 @@ public class KeyManager : MonoBehaviour
 {
     public GameObject imagenLlave;
     void OnTriggerEnter(Collider c){
-        if (c.gameObject.name=="LlavePoder"){
+        if (c.gameObject.name=="key"){
             //1. Desaparece la llave
             Destroy(c.gameObject);
             //2. Aparece en la interfaz de usuario
