@@ -715,6 +715,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8961359691366847484, guid: 4052bafe63c4eef489221dc973080238, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: acf07b3a58dc591409dbe168233c2e0c, type: 2}
     - target: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_LocalScale.x
       value: 5.225
@@ -779,12 +783,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.036
       objectReference: {fileID: 0}
+    - target: {fileID: -1375976272726624273, guid: 4052bafe63c4eef489221dc973080238, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3700889b6176874ba23b59b6cd3d206, type: 2}
     - target: {fileID: 919132149155446097, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       propertyPath: m_Name
       value: LittleGhost_LP
       objectReference: {fileID: 0}
+    - target: {fileID: 7592836403760580817, guid: 4052bafe63c4eef489221dc973080238, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 49a38f9c1c9b95a4fb4b6b08e7c88ef8, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1972698007037025638, guid: 4052bafe63c4eef489221dc973080238, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4052bafe63c4eef489221dc973080238, type: 3}
       insertIndex: -1
