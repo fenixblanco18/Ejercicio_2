@@ -11,15 +11,22 @@ public class Arma : MonoBehaviour
     public GameObject prefabBala;
     public Transform transformSpawner;
 
+    public AudioClip audioShoot;
+
+    public AudioClip audioFail;
+
     public void Start(){
         municion = capacidad;
     }
     public void IntentarDisparo(){
         if (municion>0){
             Disparar();
+        } else {
+            GetComponent<AudioSource>().PlayOneShot(audioFail);
         }
     }
     private void Disparar(){
+        GetComponent<AudioSource>().PlayOneShot(audioShoot);
         municion--;
         GameObject bala = Instantiate(prefabBala,transformSpawner.position, transformSpawner.rotation);
         bala.GetComponent<Rigidbody>().AddForce(bala.transform.forward * fuerza);

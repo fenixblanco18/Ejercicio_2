@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d96f82be68c89ae49bce05710f347115, type: 2}
+  - {fileID: 2100000, guid: 0a31c6c18b654114ead1bb156c89e7c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,6 +126,7 @@ MonoBehaviour:
   fuerza: 10
   prefabBala: {fileID: 0}
   transformSpawner: {fileID: 0}
+  audioShoot: {fileID: 0}
 --- !u!54 &3352790623735070469
 Rigidbody:
   m_ObjectHideFlags: 0
