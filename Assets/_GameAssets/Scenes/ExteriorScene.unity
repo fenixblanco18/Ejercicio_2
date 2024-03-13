@@ -3414,7 +3414,7 @@ GameObject:
   - component: {fileID: 1603760688}
   - component: {fileID: 1603760687}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: NPC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4213,7 +4213,7 @@ GameObject:
   - component: {fileID: 2098194059}
   - component: {fileID: 2098194058}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Capa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
